@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of https://github.com/laravel-validation-rules/timezone
+ * This file is part of https://github.com/laravel-validation-rules/uk-mobile-phone
  *
  *  (c) Scott Wilcox <scott@dor.ky>
  *
