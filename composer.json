@@ -1,0 +1,34 @@
+{
+    "name": "laravel-validation-rules/uk-mobile-phone",
+    "description": "Validate that a given UK mobile phone number is valid.",
+    "type": "library",
+    "keywords": [ "laravel", "validation", "uk", "phone" ],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Scott Wilcox",
+            "email": "scott@dor.ky",
+            "homepage": "http://dor.ky"
+        }
+    ],
+    "require": {
+        "illuminate/validation": "^5.5",
+        "illuminate/translation": "^5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "LVR\\UKMobilePhone\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LVR\\UKMobilePhone\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --colors=always"
+    }
+}
